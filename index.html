@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>3D Geometry Mensuration</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>3D Geometry Mensuration</h1>
+    <p>Interactive volume & surface-area calculator (HTML, CSS, JS)</p>
+
+    <label for="shape">Choose shape:</label>
+    <select id="shape">
+      <option value="cuboid">Cuboid (Rectangular Box)</option>
+      <option value="cube">Cube</option>
+      <option value="cylinder">Cylinder</option>
+      <option value="cone">Right Circular Cone</option>
+      <option value="sphere">Sphere</option>
+      <option value="pyramid">Square Pyramid</option>
+    </select>
+
+    <div id="inputs"></div>
+    <button id="calculate">Calculate</button>
+
+    <div class="results">
+      <h2>Results</h2>
+      <p id="volume">Volume: —</p>
+      <p id="surface">Surface Area: —</p>
+    </div>
+
+    <footer>
+      Pure HTML • CSS • JavaScript • Mensuration demo
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
